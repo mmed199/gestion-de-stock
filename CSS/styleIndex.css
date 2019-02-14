@@ -1,0 +1,56 @@
+body {
+	background-image: linear-gradient(to right,#3F3328,#574A3C) ,url("../images/background.jpeg");
+	background-size: cover;
+	background-blend-mode: hard-light;
+}
+
+p{
+	font-weight: bolder;
+	font-size: 60px;
+	font-family: "Myriad pro";
+	text-align: center;
+	color: #F9F8F2;
+	margin-top: 30px;
+}
+
+img{
+	margin-top: 100px;
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	width: 130px;
+	margin-bottom: 0px;
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 130px;
+}
+a{
+	text-decoration: none;
+	color: #ac5240;
+	font-family: "Myriad pro";
+	font-weight: 600;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: block;
+	width: 220px;
+	height: 55px;
+	padding-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #F9F8F2;
+	font-size: 40px;
+}
+
+a:hover{
+	color: #F9F8F2;
+	background-color: #ac5240;
+	font-weight: 900;
+	width: 225px;
+	height: 60px;
+	padding-top: 12px;
+
+}
